@@ -29,7 +29,7 @@ async def botinvite():
     await client.whisper(link)
 
 #gets a server invite and pms it to the user who requested it  
- m
+ 
 @client.command(pass_context=True)
 async def serverinvte(context):
 	"""Pm's A Invite Code (To The Server) To The User"""
